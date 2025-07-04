@@ -1,7 +1,9 @@
+import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Profile_Data_Cubit/profile_data_cubit.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Views/Profile_Views/Widgets/my_profile_card.dart';
 import 'package:ecowin/Views/Profile_Views/profile_edit_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:ecowin/Core/Theme/general_app_bar.dart';
@@ -37,8 +39,11 @@ class ProfileView extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (_) => ProfileEditView(
-                  profile: profile,
+                builder: (_) => BlocProvider.value(
+                  value: context.read<ProfileDataCubit>(),
+                  child: ProfileEditView(
+                    profile: profile,
+                  ),
                 ),
               ),
             );

@@ -18,4 +18,14 @@ class ProfileDataCubit extends Cubit<ProfileDataState> {
       emit(ProfileDataError(e.toString()));
     }
   }
+  Future<void> refreshProfile() async {
+    try {
+      emit(ProfileDataLoading());
+      final profile = await ProfileDataService().fetchProfileData();
+      final leaderboard = await LeaderboardService().fetchLeaderboardData();
+      emit(ProfileDataLoaded(profile, leaderboard));
+    } catch (e) {
+      emit(ProfileDataError(e.toString()));
+    }
+  }
 }

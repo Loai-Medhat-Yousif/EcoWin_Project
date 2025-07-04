@@ -1,11 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:ecowin/Core/Constants/screen_dialogs.dart';
-import 'package:ecowin/Models/Profile%20Models/leaderboard_data_model.dart';
-import 'package:ecowin/Models/Profile%20Models/profile_data_model.dart';
 import 'package:ecowin/Views/Home_Views/home_view.dart';
 import 'package:ecowin/api/Services/Auth_Services/SignUp_Service/signupservice.dart';
-import 'package:ecowin/api/Services/LeaderBoard_Service/leaderboard_service.dart';
-import 'package:ecowin/api/Services/Profile%20Service/profile_data_service.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -71,10 +67,6 @@ class SignupViewCubit extends Cubit<SignupViewState> {
         await Signupservice()
             .signUp(name, email, phone, password, confirmpassword);
         if (!isClosed) {
-          final ProfileDataModel profileData =
-              await ProfileDataService().fetchProfileData();
-          final List<LeaderboardDataModel> leaderboardData =
-              await LeaderboardService().fetchLeaderboardData();
           ScreenDialogs.showSuccessDialog(
               context, 'You have successfully logged in', 'Ok', () async {
             final prefs = await SharedPreferences.getInstance();
@@ -83,8 +75,6 @@ class SignupViewCubit extends Cubit<SignupViewState> {
                 context,
                 MaterialPageRoute(
                     builder: (context) => HomeView(
-                          profile: profileData,
-                          leaderboard: leaderboardData,
                         )));
           });
         }

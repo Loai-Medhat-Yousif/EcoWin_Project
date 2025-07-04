@@ -157,7 +157,7 @@ class AboutUsView extends StatelessWidget {
                   ),
                   10.verticalSpace,
                   Text(
-                    "Email : ecowin@gmailcom",
+                    "Email : ecowin@gmail.com",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: AppColors.secondaryColor,

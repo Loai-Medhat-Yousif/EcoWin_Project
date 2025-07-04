@@ -46,21 +46,15 @@ class SliderItems extends StatelessWidget {
                 backgroundImage: NetworkImage(profile.image),
               )),
           ListTile(
-            minTileHeight: 0.01.sh,
-            minLeadingWidth: 0.4.sw,
-            contentPadding: REdgeInsets.only(
-              left: 15,
-              top: 15,
-              bottom: 15,
-            ),
-            leading: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                profile.name,
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 18.sp,
-                    fontFamily: "AirbnbCereal_W_Bd"),
+            contentPadding: REdgeInsets.only(left: 15, top: 10, bottom: 10),
+            title: Text(
+              profile.name,
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 18.sp,
+                fontFamily: "AirbnbCereal_W_Bd",
               ),
             ),
           ),

@@ -10655,6 +10655,13 @@ io.flutter.plugins.imagepicker.Messages:
     public void <init>()
 io.flutter.plugins.imagepicker.R$xml
 io.flutter.plugins.imagepicker.R
+io.flutter.plugins.pathprovider.Messages$FlutterError:
+    public void <init>(java.lang.String,java.lang.String,java.lang.Object)
+io.flutter.plugins.pathprovider.Messages:
+    public void <init>()
+io.flutter.plugins.pathprovider.PathProviderPlugin:
+    static final java.lang.String TAG
+io.flutter.plugins.pathprovider.R
 io.flutter.plugins.sharedpreferences.LegacySharedPreferencesPlugin:
     private static final java.lang.String BIG_INTEGER_PREFIX
     private static final java.lang.String DOUBLE_PREFIX
@@ -23226,9 +23233,12 @@ com.getkeepsafe.relinker.ReLinkerInstance:
 com.getkeepsafe.relinker.SystemLibraryLoader
 com.getkeepsafe.relinker.TextUtils$$InternalSyntheticThrowCCEIfNotNull$15$dc60326d94125123323a466cf2f3a8882d435a81150d02cb4ad64e0c8283c899$0
 com.getkeepsafe.relinker.TextUtils$$InternalSyntheticThrowCCEIfNotNull$15$dc60326d94125123323a466cf2f3a8882d435a81150d02cb4ad64e0c8283c899$1
+com.getkeepsafe.relinker.TextUtils$$InternalSyntheticThrowCCEIfNotNull$9$5fc5a4f5310e115f2da3d61070ccfb7f38ea52a3d4c93fdc05175724b3412a02$0
 com.getkeepsafe.relinker.TextUtils$$InternalSyntheticThrowCCEIfNotNull$9$ff1c45b7c478c171a491957649b4f2e571e4a91924c511e89ce62933312643e3$0
 com.getkeepsafe.relinker.TextUtils:
     public static boolean childHasFocus(android.view.View)
+    public static java.lang.String getDataDirectory(android.content.Context)
+    public static java.lang.String getFilesDir(android.content.Context)
     public static boolean isEmpty(java.lang.CharSequence)
     public static boolean traverseHierarchy(android.view.View,io.flutter.util.ViewUtils$ViewVisitor)
     public abstract void waitForCompletion()
@@ -24428,6 +24438,39 @@ io.flutter.plugins.imagepicker.Messages$VideoSelectionOptions:
     public static void setMaxDurationSeconds()
     public static java.util.ArrayList toList()
 io.flutter.plugins.imagepicker.Messages
+io.flutter.plugins.pathprovider.Messages$FlutterError
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$1
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$2
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$3
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$4
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$5
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$6
+io.flutter.plugins.pathprovider.Messages$PathProviderApi$-CC:
+    public static io.flutter.plugin.common.MessageCodec getCodec()
+io.flutter.plugins.pathprovider.Messages$PathProviderApi
+io.flutter.plugins.pathprovider.Messages$StorageDirectory:
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory ALARMS
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory DCIM
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory DOCUMENTS
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory DOWNLOADS
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory MOVIES
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory MUSIC
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory NOTIFICATIONS
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory PICTURES
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory PODCASTS
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory RINGTONES
+    public static final enum io.flutter.plugins.pathprovider.Messages$StorageDirectory ROOT
+io.flutter.plugins.pathprovider.Messages
+io.flutter.plugins.pathprovider.PathProviderPlugin$1
+io.flutter.plugins.pathprovider.PathProviderPlugin:
+    public static java.lang.String getApplicationCachePath()
+    public static java.lang.String getApplicationDocumentsPath()
+    public static java.lang.String getApplicationSupportPath()
+    public static java.util.List getExternalCachePaths()
+    public static java.lang.String getExternalStoragePath()
+    public static java.lang.String getStorageDirectoryString()
+    public static java.lang.String getTemporaryPath()
+    public static void setUp$1()
 io.flutter.plugins.sharedpreferences.LegacySharedPreferencesPlugin:
     public static java.util.Map getAllPrefs()
     public static java.lang.Boolean remove()
@@ -24436,7 +24479,7 @@ io.flutter.plugins.sharedpreferences.LegacySharedPreferencesPlugin:
     public static java.lang.Boolean setDouble()
     public static java.lang.Boolean setEncodedStringList()
     public static java.lang.Boolean setInt()
-    public static void setUp$1()
+    public static void setUp$2()
     public static java.lang.Object transformPref()
 io.flutter.plugins.sharedpreferences.ListEncoder
 io.flutter.plugins.sharedpreferences.Messages$FlutterError
@@ -24754,10 +24797,7 @@ kotlin.collections.ArraysKt___ArraysKt:
     public static final int getLastIndex(java.lang.Object[])
     public static java.lang.Object getOrNull(int,java.lang.Object[])
     public static char single(char[])
-kotlin.collections.ArraysUtilJVM
-kotlin.collections.CollectionsKt
-kotlin.collections.CollectionsKt__CollectionsJVMKt
-kotlin.collections.CollectionsKt__CollectionsKt:
+kotlin.collections.ArraysUtilJVM:
     public static final int differenceModulo(int,int,int)
     public static kotlin.ranges.IntProgression downTo(int,int)
     public static java.util.List emptyList()
@@ -24777,6 +24817,9 @@ kotlin.collections.CollectionsKt__CollectionsKt:
     public abstract void unpark()
     public abstract void unregisterTimeLoopThread()
     public abstract java.lang.Runnable wrapTask()
+kotlin.collections.CollectionsKt
+kotlin.collections.CollectionsKt__CollectionsJVMKt
+kotlin.collections.CollectionsKt__CollectionsKt
 kotlin.collections.CollectionsKt__IterablesKt
 kotlin.collections.CollectionsKt__IteratorsKt
 kotlin.collections.CollectionsKt__MutableCollectionsKt
@@ -25021,10 +25064,9 @@ kotlinx.coroutines.AbstractTimeSourceKt
 kotlinx.coroutines.BlockingCoroutine:
     public static java.lang.Object joinBlocking()
 kotlinx.coroutines.BuildersKt
-kotlinx.coroutines.BuildersKt__BuildersKt
-kotlinx.coroutines.BuildersKt__Builders_commonKt$$InternalSyntheticThrowCCEIfNotNull$17$db884bc7ec2cb92a4b6257cca3bbc6eced9e01f37810823662d79bd0a06fa129$0
-kotlinx.coroutines.BuildersKt__Builders_commonKt$$InternalSyntheticThrowCCEIfNotNull$202$28d3e5cd7e4a50380bfc136bab79a256cc7831ce6b6446577e1a015da13eeef1$0
-kotlinx.coroutines.BuildersKt__Builders_commonKt:
+kotlinx.coroutines.BuildersKt__BuildersKt$$InternalSyntheticThrowCCEIfNotNull$17$95acf0ce05ad8d48731b836d6497f71b9500458d676a8af7d975fedc93e684ed$0
+kotlinx.coroutines.BuildersKt__BuildersKt$$InternalSyntheticThrowCCEIfNotNull$202$3162f378acc4a98d4a75a189ce03e10f263d9e9575f018e730518b2211c5d185$0
+kotlinx.coroutines.BuildersKt__BuildersKt:
     public static final java.util.concurrent.CancellationException CancellationException(java.lang.String,java.lang.Throwable)
     public static kotlinx.coroutines.CompletableDeferredImpl CompletableDeferred$default()
     public static final kotlinx.coroutines.internal.ContextScope CoroutineScope(kotlin.coroutines.CoroutineContext)
@@ -25041,6 +25083,7 @@ kotlinx.coroutines.BuildersKt__Builders_commonKt:
     public static final kotlin.coroutines.CoroutineContext newCoroutineContext(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.CoroutineContext)
     public static final java.lang.Object toState(java.lang.Object,kotlin.jvm.functions.Function1)
     public static java.lang.Object toState$default(java.lang.Object)
+kotlinx.coroutines.BuildersKt__Builders_commonKt
 kotlinx.coroutines.CancelHandlerBase
 kotlinx.coroutines.CancellableContinuation:
     public abstract void invokeOnCancellation(kotlinx.coroutines.DisposeOnCancel)
@@ -25564,8 +25607,7 @@ kotlinx.coroutines.flow.internal.ChannelFlowOperatorImpl:
     public static java.lang.Object collectWithContextUndispatched()
     public static java.lang.Object collectWithContextUndispatched$kotlinx$coroutines$flow$internal$ChannelFlowOperator()
     public final java.lang.Object flowCollect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
-kotlinx.coroutines.flow.internal.FlowExceptions_commonKt
-kotlinx.coroutines.flow.internal.FusibleFlow$DefaultImpls:
+kotlinx.coroutines.flow.internal.FlowExceptions_commonKt:
     public static synthetic androidx.startup.StartupException callUndeliveredElementCatchingException$default(kotlin.jvm.functions.Function1,java.lang.Object)
     public static final void checkParallelism(int)
     public static java.lang.Object constructor-impl$default()
@@ -25574,6 +25616,7 @@ kotlinx.coroutines.flow.internal.FusibleFlow$DefaultImpls:
     public static final boolean systemProp(java.lang.String,boolean)
     public static synthetic long systemProp$default(java.lang.String,long)
     public static synthetic void unlock$default(kotlinx.coroutines.sync.MutexImpl)
+kotlinx.coroutines.flow.internal.FusibleFlow$DefaultImpls
 kotlinx.coroutines.flow.internal.NoOpContinuation:
     public static final kotlin.coroutines.EmptyCoroutineContext context
 kotlinx.coroutines.flow.internal.NopCollector

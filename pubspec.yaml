@@ -40,20 +40,10 @@ flutter:
 
   assets:
     - images/Logo.png
-    - images/Stickers bg.png
     - images/texture bg.png
     - images/onboarding1.png
     - images/onboarding2.png
     - images/onboarding3.png
-    - images/Email.png
-    - images/Lock.png
-    - images/Hidden.png
-    - images/show.png
-    - images/GAuth.png
-    - images/google.png
-    - images/Back btn.png
-    - images/Profile.png
-    - images/phone.png
     - images/illustration.png
     - images/Envlope.png
     - images/Password.png
@@ -64,9 +54,6 @@ flutter:
     - images/Rank2.png
     - images/Rank3.png
     - images/Crown.png
-    - images/Discount Coupon.png
-    - images/Rightmark.png
-    - images/Wrongmark.png
     - images/Delivery.png
 
   fonts:

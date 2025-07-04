@@ -1,8 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:ecowin/Models/Profile%20Models/leaderboard_data_model.dart';
-import 'package:ecowin/Models/Profile%20Models/profile_data_model.dart';
-import 'package:ecowin/api/Services/LeaderBoard_Service/leaderboard_service.dart';
-import 'package:ecowin/api/Services/Profile%20Service/profile_data_service.dart';
 import 'package:equatable/equatable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -19,12 +15,8 @@ class SplashViewCubitCubit extends Cubit<SplashViewCubitState> {
 
     if (hasSeenOnboarding == true && isremembered == true) {
       try {
-        final ProfileDataModel profileData =
-            await ProfileDataService().fetchProfileData();
-        final List<LeaderboardDataModel> leaderboardData =
-            await LeaderboardService().fetchLeaderboardData();
-        emit(SplashViewCubitHome(
-            profileData: profileData, leaderboardData: leaderboardData));
+        await Future.delayed(const Duration(seconds: 3));
+        emit(SplashViewCubitHome());
       } catch (e) {
         print(e);
         emit(SplashViewCubitError("There was an Error Getting Profile Data."));

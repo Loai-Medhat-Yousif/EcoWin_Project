@@ -1,3 +1,4 @@
+import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Profile_Data_Cubit/profile_data_cubit.dart';
 import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Rewards_View_Cubit/Coupons_View_Cubit/reward_view_cubit.dart';
 import 'package:ecowin/Core/Constants/screen_dialogs.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
@@ -58,6 +59,7 @@ class RewardView extends StatelessWidget {
                             state.discount,
                             state.couponcode,
                             () {
+                              context.read<ProfileDataCubit>().refreshProfile();
                               context
                                   .read<RewardViewCubit>()
                                   .fetchRewards(context);

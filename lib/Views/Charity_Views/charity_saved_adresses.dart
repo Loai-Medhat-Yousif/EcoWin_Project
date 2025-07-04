@@ -6,6 +6,7 @@ import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Core/Theme/general_app_bar.dart';
 import 'package:ecowin/Core/Theme/theme_constants.dart';
 import 'package:ecowin/Views/Charity_Views/Widgets/charity_saved_adresses_card.dart';
+import 'package:ecowin/Views/Home_Views/home_view.dart';
 import 'package:ecowin/Views/Saved_Adresses_Views/Widgets/add_adress_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -99,8 +100,10 @@ class CharitySavedAdresses extends StatelessWidget {
                                   context
                                       .read<SavedadressesCubit>()
                                       .resetToDefault();
-                                  Navigator.popUntil(
-                                      context, (route) => route.isFirst);
+                                  Navigator.pushReplacement(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => HomeView()));
                                 },
                                 child: Text(
                                   "Done",

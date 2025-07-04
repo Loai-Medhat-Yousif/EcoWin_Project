@@ -58,7 +58,7 @@ class HistoryList extends StatelessWidget {
                 final icon =
                     isDebit ? Icons.sync_alt : Icons.inventory_2_outlined;
                 final label =
-                    isDebit ? 'Points Redemption Successful' : 'Waste Handover';
+                    isDebit ? 'Redemption Successful' : 'Waste Handover';
                 final amountColor = isDebit ? Colors.red : AppColors.mainColor;
                 final sign = isDebit ? '-' : '+';
 

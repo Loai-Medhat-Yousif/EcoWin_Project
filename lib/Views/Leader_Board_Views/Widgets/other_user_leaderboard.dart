@@ -47,6 +47,7 @@ class OtherUserLeaderboard extends StatelessWidget {
               ],
             ),
             title: Text(
+              overflow: TextOverflow.ellipsis,
               name,
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.sp),
             ),

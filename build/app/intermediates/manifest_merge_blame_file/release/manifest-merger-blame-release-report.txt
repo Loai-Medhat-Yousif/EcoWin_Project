@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecowin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:2:1-62
+11-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:3:1-75
+12-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:3:18-73
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:4:1-60
+13-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:4:18-58
+14    <!--
+15         Required to query activities that can process text, see:
+16         https://developer.android.com/training/package-visibility and
+17         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+18
+19         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+20    -->
+21    <queries>
+21-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:46:5-51:15
+22        <intent>
+22-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:47:9-50:18
+23            <action android:name="android.intent.action.PROCESS_TEXT" />
+23-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:48:13-72
+23-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:48:21-70
+24
+25            <data android:mimeType="text/plain" />
+25-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:13-50
+25-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:19-48
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-79
+29-->[:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-76
+30
+31    <permission
+31-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.ecowin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.ecowin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+38-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:7:9-42
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+40        android:extractNativeLibs="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:8:9-43
+42        android:label="ecowin" >
+42-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:6:9-31
+43        <activity
+43-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:9:9-31:20
+44            android:name="com.example.ecowin.MainActivity"
+44-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:10:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:16:13-163
+46            android:exported="true"
+46-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:11:13-36
+47            android:hardwareAccelerated="true"
+47-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:17:13-47
+48            android:launchMode="singleTop"
+48-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:13:13-43
+49            android:screenOrientation="portrait"
+49-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:12:13-49
+50            android:taskAffinity=""
+50-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:14:13-36
+51            android:theme="@style/LaunchTheme"
+51-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:15:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:18:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:23:13-26:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:24:15-70
+62                android:resource="@style/NormalTheme" />
+62-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:25:15-52
+63
+64            <intent-filter>
+64-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:27:13-30:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:28:17-68
+65-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:28:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:17-76
+67-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:32:9-34:73
+71            android:name="com.yalantis.ucrop.UCropActivity"
+71-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:32:19-66
+72            android:screenOrientation="landscape"
+72-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:33:11-48
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:34:11-70
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:37:9-39:33
+79            android:name="flutterEmbedding"
+79-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:38:13-44
+80            android:value="2" />
+80-->D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:39:13-30
+81
+82        <provider
+82-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-17:20
+83            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+83-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-82
+84            android:authorities="com.example.ecowin.flutter.image_provider"
+84-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+85            android:exported="false"
+85-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+86            android:grantUriPermissions="true" >
+86-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-47
+87            <meta-data
+87-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:75
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+89                android:resource="@xml/flutter_image_picker_file_paths" />
+89-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-72
+90        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+91        <service
+91-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-31:19
+92            android:name="com.google.android.gms.metadata.ModuleDependencies"
+92-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-78
+93            android:enabled="false"
+93-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-36
+94            android:exported="false" >
+94-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+95            <intent-filter>
+95-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-26:29
+96                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+96-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-94
+96-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-91
+97            </intent-filter>
+98
+99            <meta-data
+99-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:36
+100                android:name="photopicker_activity:0:required"
+100-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-63
+101                android:value="" />
+101-->[:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-33
+102        </service>
+103
+104        <uses-library
+104-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+107        <uses-library
+107-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+110
+111        <provider
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.ecowin.androidx-startup"
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>

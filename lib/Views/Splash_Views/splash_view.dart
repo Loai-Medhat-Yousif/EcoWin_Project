@@ -32,9 +32,7 @@ class SplashView extends StatelessWidget {
             } else if (state is SplashViewCubitHome) {
               Navigator.of(context).pushReplacement(
                 MaterialPageRoute(
-                    builder: (_) => HomeView(
-                        profile: state.profileData,
-                        leaderboard: state.leaderboardData)),
+                    builder: (_) => HomeView()),
               );
             } else if (state is SplashViewCubitError) {
               ScreenDialogs.showFailureDialog(

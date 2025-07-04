@@ -13,14 +13,7 @@ final class SplashViewCubitOnBoard extends SplashViewCubitState {}
 
 final class SplashViewCubitAuthPage extends SplashViewCubitState {}
 
-final class SplashViewCubitHome extends SplashViewCubitState {
-  final ProfileDataModel profileData;
-
-  final List<LeaderboardDataModel> leaderboardData;
-
-  SplashViewCubitHome(
-      {required this.profileData, required this.leaderboardData});
-}
+final class SplashViewCubitHome extends SplashViewCubitState {}
 
 final class SplashViewCubitError extends SplashViewCubitState {
   final String errormessage;

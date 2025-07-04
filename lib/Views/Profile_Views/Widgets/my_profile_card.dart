@@ -27,6 +27,7 @@ class MyProfileCard extends StatelessWidget {
           ),
           10.verticalSpace,
           Text(
+            overflow: TextOverflow.ellipsis,
             profile.name,
             style: TextStyle(
               fontSize: 20.sp,
@@ -104,10 +105,10 @@ class MyProfileCard extends StatelessWidget {
                   ),
                 )
               : Padding(
-                  padding: REdgeInsets.symmetric(horizontal: 10),
+                  padding: REdgeInsets.symmetric(horizontal: 5),
                   child: Row(children: [
                     CircleAvatar(
-                        radius: 25.r,
+                        radius: 20.r,
                         backgroundColor: Colors.transparent,
                         child: profile.lastTransactiontype == "debit"
                             ? Icon(
@@ -128,9 +129,7 @@ class MyProfileCard extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 14.sp,
                         fontFamily: "AirbnbCereal_W_Md",
-                        color: profile.lastTransactiontype == "debit"
-                            ? Colors.red
-                            : AppColors.mainColor,
+                        color: Colors.black,
                       ),
                     ),
                     Spacer(),
@@ -139,9 +138,12 @@ class MyProfileCard extends StatelessWidget {
                           ? "-${profile.lastTransactionAmount}"
                           : "+${profile.lastTransactionAmount}",
                       style: TextStyle(
-                          fontSize: 14.sp,
-                          fontFamily: "AirbnbCereal_W_Blk",
-                          color: Colors.black),
+                        color: profile.lastTransactiontype == "debit"
+                            ? Colors.red
+                            : AppColors.mainColor,
+                        fontSize: 14.sp,
+                        fontFamily: "AirbnbCereal_W_Blk",
+                      ),
                     ),
                   ]),
                 )
