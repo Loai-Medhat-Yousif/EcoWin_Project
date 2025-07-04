@@ -1,0 +1,103 @@
+name: ecowin
+description: "A Recycle App for EcoWin That Helps You Reduce Your Carbon Footprint By Recycling And Win Prizes."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  awesome_dialog: ^3.2.1
+  http: ^1.3.0
+  connectivity_plus: ^6.1.3
+  pinput: ^5.0.1
+  shared_preferences: ^2.5.2
+  flutter_slider_drawer: ^3.0.2
+  device_preview: ^1.2.0
+  smooth_page_indicator: ^1.2.1
+  image_picker: ^1.1.2
+  carousel_slider: ^5.0.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  flutter_screenutil: ^5.9.3
+  hydrated_bloc: ^10.0.0
+  path_provider: ^2.1.5
+  flutter_animate: ^4.5.2
+  gif: ^2.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/Logo.png
+    - images/Stickers bg.png
+    - images/texture bg.png
+    - images/onboarding1.png
+    - images/onboarding2.png
+    - images/onboarding3.png
+    - images/Email.png
+    - images/Lock.png
+    - images/Hidden.png
+    - images/show.png
+    - images/GAuth.png
+    - images/google.png
+    - images/Back btn.png
+    - images/Profile.png
+    - images/phone.png
+    - images/illustration.png
+    - images/Envlope.png
+    - images/Password.png
+    - images/SucessPassword.png
+    - images/Startup.jpg
+    - images/card.png
+    - images/Rank1.png
+    - images/Rank2.png
+    - images/Rank3.png
+    - images/Crown.png
+    - images/Discount Coupon.png
+    - images/Rightmark.png
+    - images/Wrongmark.png
+    - images/Delivery.png
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fonts/Manrope-Medium.ttf
+
+    - family: Alexandria
+      fonts:
+        - asset: fonts/Alexandria-Regular.ttf
+
+    - family: AirbnbCereal_W_Lt
+      fonts:
+        - asset: fonts/AirbnbCereal_W_Lt.otf
+
+    - family: AirbnbCereal_W_Bd
+      fonts:
+        - asset: fonts/AirbnbCereal_W_Bd.otf
+
+    - family: AirbnbCereal_W_Md
+      fonts:
+        - asset: fonts/AirbnbCereal_W_Md.otf
+
+    - family: AirbnbCereal_W_Blk
+      fonts:
+        - asset: fonts/AirbnbCereal_W_Blk.otf
+
+    - family: AirbnbCereal_W_Bk
+      fonts:
+        - asset: fonts/AirbnbCereal_W_Bk.otf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf

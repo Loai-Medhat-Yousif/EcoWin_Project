@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Loai Medhat\AppData\Local\Pub\Cache\hosted\pub.dev\rive_common-0.4.15\android\.cxx\Debug\3k252i3t\x86_64'
+ninja: no work to do.
