@@ -5,6 +5,7 @@ import 'package:ecowin/Controllers/cubit/Ui_Cubits/Home_View_Cubit/home_view_cub
 import 'package:ecowin/Core/Constants/screen_dialogs.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Core/Theme/theme_constants.dart';
+import 'package:ecowin/Views/Ai_Scanner_Views/ai_scanner_view.dart';
 import 'package:ecowin/Views/Exchange_Views/exchange_view.dart';
 import 'package:ecowin/Views/Home_Views/Pages/home_view_body.dart';
 import 'package:ecowin/Views/Home_Views/Widget/buttom_appbar.dart';
@@ -101,7 +102,11 @@ class HomeView extends StatelessWidget {
                           heroTag: 'exchange-fab',
                           elevation: 3,
                           onPressed: () {
-                            // Scan logic
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => ScannerView(),
+                                ));
                           },
                           backgroundColor: AppColors.mainColor,
                           shape: const CircleBorder(),
@@ -116,13 +121,15 @@ class HomeView extends StatelessWidget {
                 },
               );
             } else if (state is ProfileDataError) {
-              return Scaffold(
-                body: Center(
-                    child: GestureDetector(
-                        onTap: () =>
-                            context.read<ProfileDataCubit>().loadProfile(),
-                        child: Text("Error: ${state.message} , Try Again ?"))),
+              ScreenDialogs.showFailureDialog(
+                context,
+                state.message,
+                "Ok",
+                () {
+                  context.read<ProfileDataCubit>().loadProfile();
+                },
               );
+              return const SizedBox(); // Added to satisfy the return type
             } else {
               return const SizedBox();
             }

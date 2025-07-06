@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Models/My_Orders%20Models/my_orders_model.dart';
 import 'package:flutter/material.dart';
@@ -86,14 +87,18 @@ class MyOrderList extends StatelessWidget {
                                   Container(
                                     height: 0.15.sh,
                                     width: 0.3.sw,
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(12.r),
-                                      child: Image.network(
-                                        item.product.image,
-                                        fit: BoxFit.cover,
-                                        errorBuilder: (_, __, ___) => Container(
+                                    child: CachedNetworkImage(
+                                      imageUrl: item.product.image,
+                                      height: 35.h,
+                                      width: 35.w,
+                                      fit: BoxFit.cover,
+                                      placeholder: (context, url) =>
+                                          const Center(
+                                        child: CircularProgressIndicator(
                                             color: AppColors.mainColor),
                                       ),
+                                      errorWidget: (context, url, error) =>
+                                          const Icon(Icons.error),
                                     ),
                                   ),
                                   10.horizontalSpace,

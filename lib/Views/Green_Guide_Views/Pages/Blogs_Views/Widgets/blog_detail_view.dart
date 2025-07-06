@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Core/Theme/general_app_bar.dart';
 import 'package:ecowin/Core/Theme/theme_constants.dart';
@@ -35,43 +36,44 @@ class BlogDetail extends StatelessWidget {
               ),
               Expanded(
                 child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(12.r),
-                        child: Image.network(
-                          image,
-                          fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) {
-                            return Container(
-                              height: 0.4.sh,
-                              width: 0.8.sw,
-                              color: AppColors.mainColor,
-                            );
-                          },
+                  child: Padding(
+                    padding: REdgeInsets.all(10),
+                    child: Column(
+                      children: [
+                        ClipRRect(
+                            borderRadius: BorderRadius.circular(12.r),
+                            child: CachedNetworkImage(
+                              imageUrl: image,
+                              fit: BoxFit.cover,
+                              placeholder: (context, url) => const Center(
+                                child: CircularProgressIndicator(
+                                    color: AppColors.mainColor),
+                              ),
+                              errorWidget: (context, url, error) =>
+                                  const Icon(Icons.error),
+                            )),
+                        0.02.sh.verticalSpace,
+                        Text(
+                          textAlign: TextAlign.center,
+                          title,
+                          style: TextStyle(
+                            color: AppColors.mainColor,
+                            fontFamily: "AirbnbCereal_W_Md",
+                            fontSize: 25.sp,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                      0.02.sh.verticalSpace,
-                      Text(
-                        textAlign: TextAlign.center,
-                        title,
-                        style: TextStyle(
-                          color: AppColors.mainColor,
-                          fontFamily: "AirbnbCereal_W_Md",
-                          fontSize: 25.sp,
-                          fontWeight: FontWeight.bold,
+                        0.02.sh.verticalSpace,
+                        Text(
+                          body,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontFamily: "AirbnbCereal_W_Md",
+                            fontSize: 20.sp,
+                          ),
                         ),
-                      ),
-                      0.02.sh.verticalSpace,
-                      Text(
-                        body,
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontFamily: "AirbnbCereal_W_Md",
-                          fontSize: 20.sp,
-                        ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               )

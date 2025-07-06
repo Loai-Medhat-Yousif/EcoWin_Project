@@ -30,6 +30,8 @@ class MyCouponsService {
       return mycouponslist
           .map((json) => MyCouponsModel.fromJson(json))
           .toList();
+    } else if (response.statusCode == 404) {
+      return [];
     } else {
       throw Exception("Failed to fetch Rewards");
     }

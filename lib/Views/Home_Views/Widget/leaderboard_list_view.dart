@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -41,8 +42,19 @@ class LeaderboardListView extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 15.w),
-                CircleAvatar(
-                  backgroundImage: NetworkImage(image),
+                ClipOval(
+                  child: CachedNetworkImage(
+                    imageUrl: image,
+                    height: 35.h,
+                    width: 35.w,
+                    fit: BoxFit.cover,
+                    placeholder: (context, url) => const Center(
+                      child:
+                          CircularProgressIndicator(color: AppColors.mainColor),
+                    ),
+                    errorWidget: (context, url, error) =>
+                        const Icon(Icons.error),
+                  ),
                 ),
               ],
             ),

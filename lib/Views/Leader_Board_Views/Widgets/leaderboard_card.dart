@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
@@ -28,12 +29,16 @@ Widget LeaderBoardRow({
         ),
         Positioned(
           bottom: heightBox - 20.h,
-          child: CircleAvatar(
-            radius: avatarSize + 5.r,
-            backgroundColor: Colors.white,
-            child: CircleAvatar(
-              radius: avatarSize,
-              backgroundImage: NetworkImage(image),
+          child: ClipOval(
+            child: CachedNetworkImage(
+              imageUrl: image,
+              width: 100.w,
+              height: 100.h,
+              fit: BoxFit.cover,
+              placeholder: (context, url) => const Center(
+                child: CircularProgressIndicator(color: Colors.white),
+              ),
+              errorWidget: (context, url, error) => const Icon(Icons.error),
             ),
           ),
         ),

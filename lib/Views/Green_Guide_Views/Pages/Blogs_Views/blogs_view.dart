@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Blogs_View_Cubit/blog_view_cubit.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Core/Theme/general_app_bar.dart';
@@ -122,17 +123,17 @@ class _BlogsViewState extends State<BlogsView> {
                                 borderRadius: BorderRadius.circular(12.r),
                               ),
                               child: ClipRRect(
-                                borderRadius: BorderRadius.circular(12.r),
-                                child: Image.network(
-                                  blog.image,
-                                  fit: BoxFit.cover,
-                                  errorBuilder: (context, error, stackTrace) {
-                                    return Container(
-                                      color: AppColors.mainColor,
-                                    );
-                                  },
-                                ),
-                              ),
+                                  borderRadius: BorderRadius.circular(12.r),
+                                  child: CachedNetworkImage(
+                                    imageUrl: blog.image,
+                                    fit: BoxFit.cover,
+                                    placeholder: (context, url) => const Center(
+                                      child: CircularProgressIndicator(
+                                          color: AppColors.mainColor),
+                                    ),
+                                    errorWidget: (context, url, error) =>
+                                        const Icon(Icons.error),
+                                  )),
                             ),
                             10.horizontalSpace,
                             Expanded(

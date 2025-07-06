@@ -18,8 +18,8 @@ class RewardsModel {
       brandId: json['brand_id'],
       brandname: json['brand_name'],
       image: json['brand_image'],
-      discount: json['discount_value'],
-      price: json['price'],
+      discount: json['discount_value'].toString(),
+      price: json['price'].toString(),
     );
   }
 }

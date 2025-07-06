@@ -1,5 +1,6 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/About_Us_Cubits/about_us_cubit.dart';
+import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/About_Us_Cubit/about_us_cubit.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Core/Theme/general_app_bar.dart';
 import 'package:ecowin/Core/Theme/theme_constants.dart';
@@ -129,9 +130,19 @@ class AboutUsView extends StatelessWidget {
                       if (state is AboutUsLoaded)
                         return CarouselSlider(
                           items: state.brandImages.map((imageUrl) {
-                            return CircleAvatar(
-                              backgroundImage: NetworkImage(imageUrl),
-                              radius: 40.r,
+                            return ClipOval(
+                              child: CachedNetworkImage(
+                                imageUrl: imageUrl,
+                                width: 80.w,
+                                height: 80.h,
+                                fit: BoxFit.cover,
+                                placeholder: (context, url) => const Center(
+                                  child: CircularProgressIndicator(
+                                      color: AppColors.mainColor),
+                                ),
+                                errorWidget: (context, url, error) =>
+                                    const Icon(Icons.error),
+                              ),
                             );
                           }).toList(),
                           options: CarouselOptions(

@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Models/Products%20Models/product_model.dart';
 import 'package:ecowin/Views/Saved_Adresses_Views/saved_adresses_view.dart';
@@ -53,8 +54,6 @@ class FloatingCartButtonWidget extends StatelessWidget {
 
   void _showBottomSheet(BuildContext context) {
     if (selectedProducts.isEmpty) return;
-
-    // ignore: unused_local_variable
     List<Map<String, dynamic>> selectedItemsList = selectedProducts.entries
         .where((entry) => entry.value > 0)
         .map((entry) => {
@@ -62,13 +61,11 @@ class FloatingCartButtonWidget extends StatelessWidget {
               "quantity": entry.value,
             })
         .toList();
-
     int totalPoints = selectedProducts.entries.map((e) {
       int price =
           int.tryParse(e.key.price.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
       return price * e.value;
     }).reduce((a, b) => a + b);
-
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -112,17 +109,17 @@ class FloatingCartButtonWidget extends StatelessWidget {
                             0;
 
                         return ListTile(
-                          leading: Image.network(
-                            product.image,
-                            height: 40.h,
+                          leading: CachedNetworkImage(
+                            imageUrl: product.image,
                             width: 40.w,
+                            height: 40.h,
                             fit: BoxFit.cover,
-                            errorBuilder: (context, error, stackTrace) =>
-                                Container(
-                              height: 40.h,
-                              width: 40.w,
-                              color: Colors.white,
+                            placeholder: (context, url) => const Center(
+                              child: CircularProgressIndicator(
+                                  color: Colors.white),
                             ),
+                            errorWidget: (context, url, error) =>
+                                const Icon(Icons.error),
                           ),
                           title: Text("x$quantity ${product.name}",
                               style: TextStyle(

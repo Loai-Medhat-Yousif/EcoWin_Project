@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -36,9 +37,19 @@ class MyCouponsCard extends StatelessWidget {
                   padding: REdgeInsets.symmetric(
                     horizontal: 15,
                   ),
-                  child: CircleAvatar(
-                    backgroundImage: NetworkImage(brandimage),
-                    radius: 30.r,
+                  child: ClipOval(
+                    child: CachedNetworkImage(
+                      imageUrl: brandimage,
+                      height: 70.h,
+                      width: 70.w,
+                      fit: BoxFit.cover,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(
+                            color: AppColors.mainColor),
+                      ),
+                      errorWidget: (context, url, error) =>
+                          const Icon(Icons.error),
+                    ),
                   ),
                 ),
                 Expanded(
@@ -61,7 +72,8 @@ class MyCouponsCard extends StatelessWidget {
                               ),
                             ),
                             IconButton(
-                              icon: Icon(Icons.copy, color: AppColors.mainColor),
+                              icon:
+                                  Icon(Icons.copy, color: AppColors.mainColor),
                               iconSize: 25.sp,
                               padding: EdgeInsets.zero,
                               onPressed: () {

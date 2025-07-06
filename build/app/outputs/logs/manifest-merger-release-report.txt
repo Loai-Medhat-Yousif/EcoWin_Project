@@ -1,15 +1,33 @@
 -- Merging decision tree log ---
 application
-INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:5:5-40:19
-INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:5:5-40:19
+INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:6:5-41:19
+INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:6:5-41:19
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-11:19
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-11:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0051cd20a932d30f3234bfe4a4da0520\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0051cd20a932d30f3234bfe4a4da0520\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:23:5-34:19
 MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-32:19
 MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-32:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -21,23 +39,36 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lo
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:6:9-31
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:7:9-31
 	android:icon
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:9:9-43
 	android:name
 		INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:7:9-42
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:8:9-42
 manifest
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-52:12
-INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-52:12
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:1:1-53:12
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-13:12
 MERGED from [:shared_preferences_android] D:\Projects\Eco Win\ecowin\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0051cd20a932d30f3234bfe4a4da0520\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:17:1-34:12
+MERGED from [androidx.camera:camera-view:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d85dd18946d17df327c309875dbd26fe\transformed\jetified-camera-view-1.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-video:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d6e3e85c6e2b14a30215f3ea27925cc6\transformed\jetified-camera-video-1.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef21ae624f7ab73c41e7fcdb258e8bdc\transformed\jetified-camera-lifecycle-1.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:17:1-36:12
 MERGED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-34:12
 MERGED from [:flutter_plugin_android_lifecycle] D:\Projects\Eco Win\ecowin\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] D:\Projects\Eco Win\ecowin\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] D:\Projects\Eco Win\ecowin\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2ca0455e7d00db28ddab8327620ae56d\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\284028a17b3c4602dfe2b64a1546fb3a\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\06bab64d18d6a76121e7d6296c8e6044\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\906ef6bf41bfb5116f6edd4f3d650675\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -49,23 +80,19 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Loai Medhat\
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e9d7ce4e2bbe1eb61734d31f50c21369\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1a84bcedaf12b7c5d91e765bb2754c4c\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a354feaf01c03f230ebec1ffdfa631f8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\22ac60acd4ed16e96dbd876f1b826850\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1c2ef2529a4cd6b6dfb903cf9906d13b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\79b4ad773c1283793e7b8e636fb37f02\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\581f5b71653116f7cc8d01924d24024f\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\c6289f37a5841291a76a42e06143df11\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f76d15ab04747c9a77d6a9beb823126\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0bccbec5874acc1c4142e85c89f986dd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\35f2b1fdc4cfda09ebf66c9fc888b64e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e5a2bb5d2d737dbceb89a3289585c3e6\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bd42db86b08bb754db5633903ee8fb61\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4402e94b1564ebbb4e20fd7f360c3f63\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aa38b4ad4ad4c94933a76d26861c02d6\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -74,22 +101,32 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Loai Medhat\
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\14bb75628cafe4098fb37fec7b152968\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\10ab666f8bad8f6e25ea39a21ddb081f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Loai Medhat\.gradle\caches\transforms-3\168a7056ff2e8f7b5623a7ee3b96077f\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d1a4f5c9420d0cafeca8e9f286504ef0\transformed\jetified-datastore-core-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\eb0aa678cf45155daecc39151765e250\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e763d0fa90c553ceeca05ab9125b7d73\transformed\jetified-datastore-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3d3e95c3e4d3a6f46fcc2f1b86aad196\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test:rules:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e639044394da2858e3ce9f7c5e7de0db\transformed\rules-1.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\67e9f09e7ba86d36c3b959de046ffdb4\transformed\jetified-storage-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a3e0619ca37fe6ee3a78f1f875013366\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\af71403d3d14fcee99e6667b49ece1a4\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\565de32fd08fc77aa19a3e5c8625e93a\transformed\exifinterface-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef06b71c08fc0df45ad3c47dfbd62222\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\f1c9ab03907ed6bca4bcaa0558f80952\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9beb186f6e27b470de4b4b61d2767e87\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\c404aacc049b8bfd6f37722256d64dcc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9ab4e9579ab5980539965f1297b237f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\39eb7ac612b00018dbdc29ac8221b59b\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0831d0da2cd7a6d716da79f8f3483a73\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
@@ -109,86 +146,122 @@ ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:3
 		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:3:18-73
 uses-permission#android.permission.CAMERA
 ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:4:1-60
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-65
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:4:18-58
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:5:1-66
+	android:name
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:5:18-64
 queries
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:46:5-51:15
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:47:5-52:15
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:22:5-26:15
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:22:5-26:15
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:47:9-50:18
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:48:9-51:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:48:13-72
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:13-72
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:48:21-70
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:21-70
 data
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:13-50
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:50:13-50
 	android:mimeType
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:49:19-48
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:50:19-48
 activity#com.example.ecowin.MainActivity
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:9:9-31:20
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:10:9-32:20
 	android:screenOrientation
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:12:13-49
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:13:13-49
 	android:launchMode
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:13:13-43
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:14:13-43
 	android:hardwareAccelerated
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:17:13-47
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:18:13-55
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:19:13-55
 	android:exported
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:11:13-36
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:12:13-36
 	android:configChanges
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:16:13-163
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:17:13-163
 	android:theme
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:15:13-47
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:16:13-47
 	android:taskAffinity
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:10:13-41
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:11:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:23:13-26:17
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:24:13-27:17
 	android:resource
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:25:15-52
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:26:15-52
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:24:15-70
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:25:15-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:27:13-30:29
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:28:17-68
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:17-68
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:17-76
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:30:17-76
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:32:9-34:73
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:33:9-35:73
 	android:screenOrientation
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:33:11-48
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:34:11-48
 	android:theme
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:34:11-70
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:35:11-70
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:32:19-66
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:33:19-66
 meta-data#flutterEmbedding
-ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:37:9-39:33
+ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:38:9-40:33
 	android:value
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:39:13-30
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:40:13-30
 	android:name
-		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml:39:13-44
 uses-sdk
 INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] D:\Projects\Eco Win\ecowin\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] D:\Projects\Eco Win\ecowin\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
-MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0051cd20a932d30f3234bfe4a4da0520\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0051cd20a932d30f3234bfe4a4da0520\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d85dd18946d17df327c309875dbd26fe\transformed\jetified-camera-view-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d85dd18946d17df327c309875dbd26fe\transformed\jetified-camera-view-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d6e3e85c6e2b14a30215f3ea27925cc6\transformed\jetified-camera-video-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d6e3e85c6e2b14a30215f3ea27925cc6\transformed\jetified-camera-video-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef21ae624f7ab73c41e7fcdb258e8bdc\transformed\jetified-camera-lifecycle-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef21ae624f7ab73c41e7fcdb258e8bdc\transformed\jetified-camera-lifecycle-1.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:21:5-44
 MERGED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
 MERGED from [:flutter_plugin_android_lifecycle] D:\Projects\Eco Win\ecowin\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] D:\Projects\Eco Win\ecowin\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] D:\Projects\Eco Win\ecowin\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] D:\Projects\Eco Win\ecowin\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:rive_common] D:\Projects\Eco Win\ecowin\build\rive_common\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] D:\Projects\Eco Win\ecowin\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] D:\Projects\Eco Win\ecowin\build\sqflite_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2ca0455e7d00db28ddab8327620ae56d\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2ca0455e7d00db28ddab8327620ae56d\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\284028a17b3c4602dfe2b64a1546fb3a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\284028a17b3c4602dfe2b64a1546fb3a\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\06bab64d18d6a76121e7d6296c8e6044\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -211,14 +284,16 @@ MERGED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\t
 MERGED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1a84bcedaf12b7c5d91e765bb2754c4c\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1a84bcedaf12b7c5d91e765bb2754c4c\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a354feaf01c03f230ebec1ffdfa631f8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a354feaf01c03f230ebec1ffdfa631f8\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\22ac60acd4ed16e96dbd876f1b826850\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\22ac60acd4ed16e96dbd876f1b826850\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1c2ef2529a4cd6b6dfb903cf9906d13b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1c2ef2529a4cd6b6dfb903cf9906d13b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\79b4ad773c1283793e7b8e636fb37f02\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\79b4ad773c1283793e7b8e636fb37f02\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\581f5b71653116f7cc8d01924d24024f\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
@@ -229,22 +304,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Loai Med
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f76d15ab04747c9a77d6a9beb823126\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0bccbec5874acc1c4142e85c89f986dd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0bccbec5874acc1c4142e85c89f986dd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\65ec37dbfd0bc618f096e761ec47631c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\35f2b1fdc4cfda09ebf66c9fc888b64e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\35f2b1fdc4cfda09ebf66c9fc888b64e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e5a2bb5d2d737dbceb89a3289585c3e6\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e5a2bb5d2d737dbceb89a3289585c3e6\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\1d31496681c999db13e7de57083b5f28\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\74776105956af377d2a13b34b4093518\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bd42db86b08bb754db5633903ee8fb61\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bd42db86b08bb754db5633903ee8fb61\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4402e94b1564ebbb4e20fd7f360c3f63\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -261,28 +326,48 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lo
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\10ab666f8bad8f6e25ea39a21ddb081f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Loai Medhat\.gradle\caches\transforms-3\168a7056ff2e8f7b5623a7ee3b96077f\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Loai Medhat\.gradle\caches\transforms-3\168a7056ff2e8f7b5623a7ee3b96077f\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\b88a6393d4751a54ede580e8ed93ac14\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d1a4f5c9420d0cafeca8e9f286504ef0\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\d1a4f5c9420d0cafeca8e9f286504ef0\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\eb0aa678cf45155daecc39151765e250\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\eb0aa678cf45155daecc39151765e250\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e763d0fa90c553ceeca05ab9125b7d73\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e763d0fa90c553ceeca05ab9125b7d73\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3d3e95c3e4d3a6f46fcc2f1b86aad196\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3d3e95c3e4d3a6f46fcc2f1b86aad196\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test:rules:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e639044394da2858e3ce9f7c5e7de0db\transformed\rules-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\e639044394da2858e3ce9f7c5e7de0db\transformed\rules-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\67e9f09e7ba86d36c3b959de046ffdb4\transformed\jetified-storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\67e9f09e7ba86d36c3b959de046ffdb4\transformed\jetified-storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a3e0619ca37fe6ee3a78f1f875013366\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a3e0619ca37fe6ee3a78f1f875013366\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\7935dd1dc8692838b05b94144fb9fe62\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\af71403d3d14fcee99e6667b49ece1a4\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\af71403d3d14fcee99e6667b49ece1a4\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\565de32fd08fc77aa19a3e5c8625e93a\transformed\exifinterface-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\565de32fd08fc77aa19a3e5c8625e93a\transformed\exifinterface-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\aff139bc0339c7621332e9cd6c019269\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef06b71c08fc0df45ad3c47dfbd62222\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ef06b71c08fc0df45ad3c47dfbd62222\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\19cc35200f1af97cd549153503cade2c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\f1c9ab03907ed6bca4bcaa0558f80952\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -291,14 +376,54 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9beb186f6e27b470de4b4b61d2767e87\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\c404aacc049b8bfd6f37722256d64dcc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\c404aacc049b8bfd6f37722256d64dcc\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9ab4e9579ab5980539965f1297b237f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9ab4e9579ab5980539965f1297b237f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\39eb7ac612b00018dbdc29ac8221b59b\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\39eb7ac612b00018dbdc29ac8221b59b\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0831d0da2cd7a6d716da79f8f3483a73\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\Loai Medhat\.gradle\caches\transforms-3\0831d0da2cd7a6d716da79f8f3483a73\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
 		INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\Projects\Eco Win\ecowin\android\app\src\main\AndroidManifest.xml
+service#io.apparence.camerawesome.buttons.PlayerService
+ADDED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-83
+	android:name
+		ADDED from [:camerawesome] D:\Projects\Eco Win\ecowin\build\camerawesome\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-80
+intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:23:9-25:18
+action#androidx.camera.extensions.action.VENDOR_ACTION
+ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:24:13-86
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:24:21-83
+uses-library#androidx.camera.extensions.impl
+ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:29:9-31:40
+	android:required
+		ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [androidx.camera:camera-extensions:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\AndroidManifest.xml:30:13-59
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.2] C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\AndroidManifest.xml:31:17-103
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-76
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
 ADDED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-17:20
 	android:grantUriPermissions
@@ -337,10 +462,20 @@ ADDED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker
 		ADDED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-33
 	android:name
 		ADDED from [:image_picker_android] D:\Projects\Eco Win\ecowin\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-63
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
 	android:name
-		ADDED from [:connectivity_plus] D:\Projects\Eco Win\ecowin\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-76
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required
@@ -353,26 +488,6 @@ ADDED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\tr
 		ADDED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from [androidx.window:window:1.2.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\9162cf22a9f1d8bce03ef88fd71812cb\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -393,6 +508,38 @@ uses-permission#com.example.ecowin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+package#androidx.test.orchestrator
+ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
+package#androidx.test.services
+ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
+package#com.google.android.apps.common.testing.services
+ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from [androidx.test:runner:1.6.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Loai Medhat\.gradle\caches\transforms-3\624139cad516e2b8aeb939c9457cdbc2\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value

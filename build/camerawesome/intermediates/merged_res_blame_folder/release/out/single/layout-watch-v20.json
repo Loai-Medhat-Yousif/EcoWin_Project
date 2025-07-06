@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "io.apparence.camerawesome-merged_res-38:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "io.apparence.camerawesome-appcompat-1.1.0-1:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "io.apparence.camerawesome-merged_res-38:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "io.apparence.camerawesome-appcompat-1.1.0-1:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

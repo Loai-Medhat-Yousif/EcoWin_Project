@@ -1,4 +1,4 @@
-import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Splash_View_Cubit/splash_view_cubit.dart';
+import 'package:ecowin/Controllers/cubit/Ui_Cubits/Splash_View_Cubit/splash_view_cubit.dart';
 import 'package:ecowin/Core/Constants/screen_dialogs.dart';
 import 'package:ecowin/Views/Auth_Views/SignIn_Views/login_screen.dart';
 import 'package:ecowin/Views/Home_Views/home_view.dart';

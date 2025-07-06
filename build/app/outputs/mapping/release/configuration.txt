@@ -137,12 +137,15 @@
 # End of content from D:\FlutterEnvironment\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
 # The proguard configuration file for the following section is D:\Projects\Eco Win\ecowin\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class android.app.Application { <init>(); }
+-keep class androidx.camera.core.impl.MetadataHolderService { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
 -keep class com.example.ecowin.MainActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.google.android.gms.metadata.ModuleDependencies { <init>(); }
 -keep class com.yalantis.ucrop.UCropActivity { <init>(); }
+-keep class io.apparence.camerawesome.buttons.PlayerService { <init>(); }
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -194,6 +197,69 @@
 
 
 # End of content from D:\Projects\Eco Win\ecowin\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\proguard.txt
+# Copyright (C) 2020 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Needs to keep the classes implementing the vendor library interfaces in the extensions module.
+# Otherwise, it will cause AbstractMethodError if proguard is enabled.
+-keep class androidx.camera.extensions.ExtensionsManager$** {*;}
+-keep class androidx.camera.extensions.internal.sessionprocessor.AdvancedSessionProcessor$** {*;}
+-keep class androidx.camera.extensions.internal.sessionprocessor.StillCaptureProcessor** {*;}
+-keep class androidx.camera.extensions.internal.sessionprocessor.PreviewProcessor** {*;}
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\3f9095eba9488304ea96e30a68e897d3\transformed\jetified-camera-extensions-1.4.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\proguard.txt
+# Copyright (C) 2020 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# This is necessary for default initialization using Camera2Config
+-keep public class androidx.camera.camera2.Camera2Config$DefaultProvider { *; }
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\ac76a0bf0d9d2f111e490f9aebb5560b\transformed\jetified-camera-camera2-1.4.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\proguard.txt
+# Copyright (C) 2023 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Keeps the quirk classes to prevent them from being merged incorrectly. For more information,
+# please see b/278818703. Preserve Quirk subclasses and their names for correct name mapping in
+# QuirkSettings.
+-keep,allowshrinking class ** extends androidx.camera.core.impl.Quirk
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\92986bea3c0a9d0f450ff6352bece2ed\transformed\jetified-camera-core-1.4.2\proguard.txt
 # The proguard configuration file for the following section is D:\Projects\Eco Win\ecowin\build\flutter_plugin_android_lifecycle\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
 # The point of this package is to specify that a dependent plugin intends to
 # use the AndroidX lifecycle classes. Make sure no R8 heuristics shrink classes
@@ -206,6 +272,123 @@
 -keep class androidx.lifecycle.DefaultLifecycleObserver
 
 # End of content from D:\Projects\Eco Win\ecowin\build\flutter_plugin_android_lifecycle\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\2ca0455e7d00db28ddab8327620ae56d\transformed\media-1.7.0\proguard.txt
+# Copyright (C) 2017 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Prevent Parcelable objects from being removed or renamed.
+-keep class android.support.v4.media.** implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# Prevent Parcelable objects from being removed or renamed.
+-keep class androidx.media.** implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\2ca0455e7d00db28ddab8327620ae56d\transformed\media-1.7.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\proguard.txt
+# b/35135904 Ensure that proguard will not strip the mResultGuardian.
+-keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {
+  com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian;
+}
+
+
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\3fc4a6e85b6f3bc13d0450524375ae86\transformed\jetified-play-services-base-18.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\proguard.txt
+
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\622131ac70654eaa2a556b1ef3484612\transformed\jetified-play-services-tasks-18.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\proguard.txt
+# Needed when building against pre-Marshmallow SDK.
+-dontwarn android.security.NetworkSecurityPolicy
+
+# Needed when building against Marshmallow SDK.
+-dontwarn android.app.Notification
+
+# Protobuf has references not on the Android boot classpath
+-dontwarn sun.misc.Unsafe
+-dontwarn libcore.io.Memory
+
+# Annotations used during internal SDK shrinking.
+-dontwarn com.google.android.apps.common.proguard.UsedBy*
+-dontwarn com.google.android.apps.common.proguard.SideEffectFree
+
+# Annotations referenced by the SDK but whose definitions are contained in
+# non-required dependencies.
+-dontwarn javax.annotation.**
+-dontwarn org.checkerframework.**
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn org.jspecify.nullness.NullMarked
+
+# Annotations no longer exist. Suppression prevents ProGuard failures in
+# SDKs which depend on earlier versions of play-services-basement.
+-dontwarn com.google.android.gms.common.util.VisibleForTesting
+
+# Proguard flags for consumers of the Google Play services SDK
+# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
+
+# Keep SafeParcelable NULL value, needed for reflection by DowngradeableSafeParcel
+-keepclassmembers public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are
+# found via reflection.
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final *** CREATOR;
+}
+
+# Keep the classes/members we need for client functionality.
+-keep @interface android.support.annotation.Keep
+-keep @androidx.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <fields>;
+}
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <methods>;
+}
+
+# Keep androidX equivalent of above android.support to allow Jetification.
+-keep @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class *
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <fields>;
+}
+-keepclasseswithmembers class * {
+  @androidx.annotation.Keep <methods>;
+}
+
+# Keep the names of classes/members we need for client functionality.
+-keep @interface com.google.android.gms.common.annotation.KeepName
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+  @com.google.android.gms.common.annotation.KeepName *;
+}
+
+# Keep Dynamite API entry points
+-keep @interface com.google.android.gms.common.util.DynamiteApi
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+  public <fields>;
+  public <methods>;
+}
+
+
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\33f63a5a0748e56d968b84aaa8b5e278\transformed\jetified-play-services-basement-18.4.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\284028a17b3c4602dfe2b64a1546fb3a\transformed\preference-1.2.1\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
@@ -347,52 +530,6 @@
 }
 
 # End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\0bccbec5874acc1c4142e85c89f986dd\transformed\lifecycle-viewmodel-2.7.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\proguard.txt
--keepattributes AnnotationDefault,
-                RuntimeVisibleAnnotations,
-                RuntimeVisibleParameterAnnotations,
-                RuntimeVisibleTypeAnnotations
-
--keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
-    <fields>;
-}
-
--keep class * implements androidx.lifecycle.GeneratedAdapter {
-    <init>(...);
-}
-
--keepclassmembers class ** {
-    @androidx.lifecycle.OnLifecycleEvent *;
-}
-
-# this rule is need to work properly when app is compiled with api 28, see b/142778206
-# Also this rule prevents registerIn from being inlined.
--keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\proguard.txt
-# this rule is need to work properly when app is compiled with api 28, see b/142778206
--keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\proguard.txt
-# Copyright (C) 2019 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
--keepclassmembers,allowobfuscation class * implements androidx.savedstate.SavedStateRegistry$AutoRecreated {
-    <init>();
-}
-
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\35f2b1fdc4cfda09ebf66c9fc888b64e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
@@ -490,36 +627,34 @@
 }
 
 # End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\2c4eccc171290d66831f2af2778b865d\transformed\core-1.13.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\proguard.txt
-# It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
--keepnames class * extends androidx.startup.Initializer
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\proguard.txt
+-keepattributes AnnotationDefault,
+                RuntimeVisibleAnnotations,
+                RuntimeVisibleParameterAnnotations,
+                RuntimeVisibleTypeAnnotations
 
-# These Proguard rules ensures that ComponentInitializers are are neither shrunk nor obfuscated,
-# and are a part of the primary dex file. This is because they are discovered and instantiated
-# during application startup.
--keep class * extends androidx.startup.Initializer {
-    # Keep the public no-argument constructor while allowing other methods to be optimized.
-    <init>();
-}
-
--assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
-
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\proguard.txt
--keep class * implements androidx.versionedparcelable.VersionedParcelable
--keep public class android.support.**Parcelizer { *; }
--keep public class androidx.**Parcelizer { *; }
--keep public class androidx.versionedparcelable.ParcelImpl
-
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\4913c73a833059413572a99e5e3d120c\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
--keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
+-keepclassmembers enum androidx.lifecycle.Lifecycle$Event {
     <fields>;
 }
 
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\4913c73a833059413572a99e5e3d120c\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\proguard.txt
-# Copyright (C) 2022 The Android Open Source Project
+-keep class * implements androidx.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @androidx.lifecycle.OnLifecycleEvent *;
+}
+
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+# Also this rule prevents registerIn from being inlined.
+-keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\4a02c966f3dd86761cec23eff6d37243\transformed\lifecycle-runtime-2.7.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\proguard.txt
+# this rule is need to work properly when app is compiled with api 28, see b/142778206
+-keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\181bb416f3be7508701a79e7c7fd5c20\transformed\jetified-lifecycle-process-2.7.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\proguard.txt
+# Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -533,43 +668,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# These interfaces must be kept for the client library to invoke methods in extensions.
--keep interface androidx.window.extensions.core.util.function.Consumer {
-  public void accept(***);
-}
--keep interface androidx.window.extensions.core.util.function.Predicate {
-  public boolean test(***);
-}
--keep interface androidx.window.extensions.core.util.function.Function {
-  public *** apply(***);
-}
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\367db8e0dd0e17473b94e395b5ac8696\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
--keep,allowobfuscation @interface androidx.annotation.Keep
--keep @androidx.annotation.Keep class * {*;}
-
--keepclasseswithmembers class * {
-    @androidx.annotation.Keep <methods>;
+-keepclassmembers,allowobfuscation class * implements androidx.savedstate.SavedStateRegistry$AutoRecreated {
+    <init>();
 }
 
--keepclasseswithmembers class * {
-    @androidx.annotation.Keep <fields>;
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\a6e09bc5d6aedead02c0e3d2e985fecc\transformed\jetified-savedstate-1.2.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\4913c73a833059413572a99e5e3d120c\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
+-keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
+    <fields>;
 }
 
--keepclasseswithmembers class * {
-    @androidx.annotation.Keep <init>(...);
-}
-
--keepclassmembers,allowobfuscation class * {
-  @androidx.annotation.DoNotInline <methods>;
-}
-
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\367db8e0dd0e17473b94e395b5ac8696\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
-# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\1765b0d249f521155b6688c5e580fb15\transformed\rules\lib\META-INF\proguard\okio.pro
-# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
--dontwarn org.codehaus.mojo.animal_sniffer.*
-
-# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\1765b0d249f521155b6688c5e580fb15\transformed\rules\lib\META-INF\proguard\okio.pro
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\4913c73a833059413572a99e5e3d120c\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
 # The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a92627fa39f20b78e9df16f8e0d29974\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro
@@ -624,6 +733,137 @@
 }
 
 # End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\611ce034f93af260c25d1ba80894b613\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\e639044394da2858e3ce9f7c5e7de0db\transformed\rules-1.6.1\proguard.txt
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\e639044394da2858e3ce9f7c5e7de0db\transformed\rules-1.6.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# for 'can't find referenced class java.lang.management.RuntimeMXBean'
+-dontwarn org.junit.rules.DisableOnDebug
+
+# for 'can't find referenced class java.lang.management.ThreadMXBean'
+-dontwarn org.junit.internal.runners.statements.FailOnTimeout
+
+# for 'can't find referenced class java.beans.**, easymock, etc
+-dontwarn org.hamcrest.**
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\310f4274464a2f687fff2b69c3b96e2e\transformed\runner-1.6.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a3e0619ca37fe6ee3a78f1f875013366\transformed\monitor-1.7.1\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for class com.google.errorprone.annotations.InlineMe is not in the runtime classpath
+-dontwarn com.google.errorprone.annotations.InlineMe
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\a3e0619ca37fe6ee3a78f1f875013366\transformed\monitor-1.7.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\proguard.txt
+# It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
+-keepnames class * extends androidx.startup.Initializer
+
+# These Proguard rules ensures that ComponentInitializers are are neither shrunk nor obfuscated,
+# and are a part of the primary dex file. This is because they are discovered and instantiated
+# during application startup.
+-keep class * extends androidx.startup.Initializer {
+    # Keep the public no-argument constructor while allowing other methods to be optimized.
+    <init>();
+}
+
+-assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\01bc8eff9bafe6fae1efee88e80f08cf\transformed\jetified-startup-runtime-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\565de32fd08fc77aa19a3e5c8625e93a\transformed\exifinterface-1.4.0\proguard.txt
+# Intentionally empty proguard rules to indicate this library is safe to shrink
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\565de32fd08fc77aa19a3e5c8625e93a\transformed\exifinterface-1.4.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\proguard.txt
+-keep class * implements androidx.versionedparcelable.VersionedParcelable
+-keep public class android.support.**Parcelizer { *; }
+-keep public class androidx.**Parcelizer { *; }
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\bcf8a19e01f9c5e491260d0a868a1c96\transformed\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\proguard.txt
+# Copyright (C) 2022 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# These interfaces must be kept for the client library to invoke methods in extensions.
+-keep interface androidx.window.extensions.core.util.function.Consumer {
+  public void accept(***);
+}
+-keep interface androidx.window.extensions.core.util.function.Predicate {
+  public boolean test(***);
+}
+-keep interface androidx.window.extensions.core.util.function.Function {
+  public *** apply(***);
+}
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\a445128fb7294c7f301ea3ddc070e680\transformed\jetified-core-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\367db8e0dd0e17473b94e395b5ac8696\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keep,allowobfuscation @interface androidx.annotation.Keep
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+-keepclassmembers,allowobfuscation class * {
+  @androidx.annotation.DoNotInline <methods>;
+}
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\367db8e0dd0e17473b94e395b5ac8696\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\1765b0d249f521155b6688c5e580fb15\transformed\rules\lib\META-INF\proguard\okio.pro
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\1765b0d249f521155b6688c5e580fb15\transformed\rules\lib\META-INF\proguard\okio.pro
+# The proguard configuration file for the following section is C:\Users\Loai Medhat\.gradle\caches\transforms-3\7efc68ca101cd91911482cabb35e68c9\transformed\rules\lib\META-INF\proguard\rxjava3.pro
+-dontwarn java.util.concurrent.Flow*
+# End of content from C:\Users\Loai Medhat\.gradle\caches\transforms-3\7efc68ca101cd91911482cabb35e68c9\transformed\rules\lib\META-INF\proguard\rxjava3.pro
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>

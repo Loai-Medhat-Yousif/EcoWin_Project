@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Rewards_View_Cubit/Coupons_View_Cubit/reward_view_cubit.dart';
 import 'package:ecowin/Core/Constants/screen_dialogs.dart';
 import 'package:flutter/material.dart';
@@ -50,9 +51,19 @@ class CouponsCards extends StatelessWidget {
                     padding: REdgeInsets.symmetric(
                       horizontal: 15,
                     ),
-                    child: CircleAvatar(
-                      backgroundImage: NetworkImage(image),
-                      radius: 30.r,
+                    child: ClipOval(
+                      child: CachedNetworkImage(
+                        imageUrl: image,
+                        height: 70.h,
+                        width: 70.w,
+                        fit: BoxFit.cover,
+                        placeholder: (context, url) => const Center(
+                          child: CircularProgressIndicator(
+                              color: AppColors.mainColor),
+                        ),
+                        errorWidget: (context, url, error) =>
+                            const Icon(Icons.error),
+                      ),
                     ),
                   ),
                   Expanded(

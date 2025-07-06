@@ -18,9 +18,7 @@ Future<void> main() async {
     DeviceOrientation.portraitDown,
   ]).then((_) async {
     await ScreenUtil.ensureScreenSize();
-    runApp(
-      const EcoWin(),
-    );
+    runApp(const EcoWin());
   });
 }
 

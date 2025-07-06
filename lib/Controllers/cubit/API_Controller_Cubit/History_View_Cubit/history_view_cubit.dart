@@ -15,6 +15,15 @@ class HistoryViewCubit extends Cubit<HistoryViewState> {
     try {
       page = 1;
       final transactions = await HistoryService().fetchTransactions(page);
+      if (transactions.length < 10) {
+        if (!isClosed) emit(HistoryViewLoaded(transactions, false));
+        return;
+      }
+
+      if (transactions.isEmpty) {
+        emit(HistoryViewEmpty());
+        return;
+      }
       final hasMore = transactions.isNotEmpty;
       if (!isClosed) emit(HistoryViewLoaded(transactions, hasMore));
     } catch (e) {

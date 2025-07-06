@@ -24,6 +24,7 @@ class ExchangeViewCubit extends Cubit<ExchangeViewState> {
       if (!isClosed)
         emit(ExchangeViewLoaded(products, !isLastPage, categories));
     } catch (e) {
+      print(e);
       if (!isClosed) emit(ExchangeViewError("Failed to load initial data"));
     }
   }

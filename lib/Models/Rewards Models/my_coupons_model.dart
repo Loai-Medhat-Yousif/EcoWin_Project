@@ -18,7 +18,7 @@ class MyCouponsModel {
       brandId: json['brand_id'],
       brandname: json['brand_name'],
       image: json['brand_image'],
-      discount: json['discount_value'],
+      discount: json['discount_value'].toString(),
       code: json['code'],
     );
   }

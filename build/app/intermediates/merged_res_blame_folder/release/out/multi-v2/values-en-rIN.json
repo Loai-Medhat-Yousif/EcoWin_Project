@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ecowin.app-mergeReleaseResources-39:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.ecowin.app-mergeReleaseResources-50:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Loai Medhat\\.gradle\\caches\\transforms-3\\2c4eccc171290d66831f2af2778b865d\\transformed\\core-1.13.1\\res\\values-en-rIN\\values-en-rIN.xml",

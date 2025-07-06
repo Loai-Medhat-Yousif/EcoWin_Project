@@ -21,3 +21,5 @@ final class MyCouponsViewError extends MyCouponsViewState {
 
   const MyCouponsViewError(this.message);
 }
+
+final class NoCouponsFound extends MyCouponsViewState {}

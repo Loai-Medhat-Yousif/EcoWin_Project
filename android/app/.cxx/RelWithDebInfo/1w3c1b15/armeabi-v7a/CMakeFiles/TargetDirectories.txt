@@ -1,0 +1,2 @@
+D:/Projects/Eco Win/ecowin/android/app/.cxx/RelWithDebInfo/1w3c1b15/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Projects/Eco Win/ecowin/android/app/.cxx/RelWithDebInfo/1w3c1b15/armeabi-v7a/CMakeFiles/rebuild_cache.dir

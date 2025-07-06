@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Models/Profile%20Models/profile_data_model.dart';
 import 'package:flutter/material.dart';
@@ -21,9 +22,17 @@ class MyProfileCard extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircleAvatar(
-            radius: 40.r,
-            backgroundImage: NetworkImage(profile.image),
+          ClipOval(
+            child: CachedNetworkImage(
+              imageUrl: profile.image,
+              height: 80.h,
+              width: 80.w,
+              fit: BoxFit.cover,
+              placeholder: (context, url) => const Center(
+                child: CircularProgressIndicator(color: AppColors.mainColor),
+              ),
+              errorWidget: (context, url, error) => const Icon(Icons.error),
+            ),
           ),
           10.verticalSpace,
           Text(
@@ -92,15 +101,18 @@ class MyProfileCard extends StatelessWidget {
           ),
           5.verticalSpace,
           profile.lastTransactiontype == null
-              ? Container(
-                  width: 0.85.sw,
-                  child: Text(
-                    "No recent transactions",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 20.sp,
-                      fontFamily: "AirbnbCereal_W_Md",
-                      color: Colors.black,
+              ? Padding(
+                  padding: REdgeInsets.symmetric(vertical: 10),
+                  child: Container(
+                    width: 0.85.sw,
+                    child: Text(
+                      "No recent transactions",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 20.sp,
+                        fontFamily: "AirbnbCereal_W_Md",
+                        color: Colors.black,
+                      ),
                     ),
                   ),
                 )

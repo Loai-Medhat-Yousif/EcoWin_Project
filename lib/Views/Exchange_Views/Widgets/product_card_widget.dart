@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Core/Theme/colors.dart';
 import 'package:ecowin/Models/Products%20Models/product_model.dart';
 import 'package:flutter/material.dart';
@@ -29,19 +30,17 @@ class ProductCardWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
-            padding: REdgeInsets.symmetric(vertical: 10),
-            child: Image.network(
-              product.image,
-              height: 80.h,
-              width: 80.w,
-              fit: BoxFit.cover,
-              errorBuilder: (_, __, ___) => Container(
-                height: 80.h,
+              padding: REdgeInsets.symmetric(vertical: 10),
+              child: CachedNetworkImage(
+                imageUrl: product.image,
                 width: 80.w,
-                color: Colors.white,
-              ),
-            ),
-          ),
+                height: 80.h,
+                fit: BoxFit.cover,
+                placeholder: (context, url) => const Center(
+                  child: CircularProgressIndicator(color: Colors.white),
+                ),
+                errorWidget: (context, url, error) => const Icon(Icons.error),
+              )),
           10.verticalSpace,
           Container(
             padding: REdgeInsets.symmetric(horizontal: 10, vertical: 5),
@@ -58,15 +57,19 @@ class ProductCardWidget extends StatelessWidget {
               ),
             ),
           ),
-          10.verticalSpace,
-          Text(
-            product.name,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 16.sp,
-              fontFamily: "AirbnbCereal_W_Md",
+          5.verticalSpace,
+          Expanded(
+            child: Center(
+              child: Text(
+                product.name,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 15.sp,
+                  fontFamily: "AirbnbCereal_W_Md",
+                ),
+              ),
             ),
           ),
           Row(

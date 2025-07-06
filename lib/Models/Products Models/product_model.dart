@@ -18,7 +18,7 @@ class ProductModel {
       id: json['id'],
       categoryId: json['category_id'],
       name: json['name'],
-      price: json['price'],
+      price: json['price'].toString(),
       image: json['image'],
     );
   }

@@ -68,9 +68,11 @@ class LeaderboardView extends StatelessWidget {
                   ),
                   LeaderBoardRow(
                     rankAsset: "images/Rank3.png",
-                    image: leaderboard[2].image,
-                    name: leaderboard[2].name,
-                    points: leaderboard[2].points.toString(),
+                    image: leaderboard.length > 2 ? leaderboard[2].image : "",
+                    name: leaderboard.length > 2 ? leaderboard[2].name : "",
+                    points: leaderboard.length > 2
+                        ? leaderboard[2].points.toString()
+                        : "",
                     heightBox: 130.h,
                     avatarSize: 50.r,
                     borderRadius: BorderRadius.only(
@@ -82,18 +84,20 @@ class LeaderboardView extends StatelessWidget {
               ),
               20.verticalSpace,
               Expanded(
-                child: ListView.builder(
-                  padding: REdgeInsets.only(top: 5),
-                  itemCount: leaderboard.length - 3,
-                  itemBuilder: (context, index) {
-                    return OtherUserLeaderboard(
-                      index: index + 3,
-                      image: leaderboard[index + 3].image,
-                      name: leaderboard[index + 3].name,
-                      points: leaderboard[index + 3].points,
-                    );
-                  },
-                ),
+                child: leaderboard.length > 3
+                    ? ListView.builder(
+                        padding: REdgeInsets.only(top: 5),
+                        itemCount: leaderboard.length - 3,
+                        itemBuilder: (context, index) {
+                          return OtherUserLeaderboard(
+                            index: index + 3,
+                            image: leaderboard[index + 3].image,
+                            name: leaderboard[index + 3].name,
+                            points: leaderboard[index + 3].points,
+                          );
+                        },
+                      )
+                    : Container(),
               )
             ],
           ),

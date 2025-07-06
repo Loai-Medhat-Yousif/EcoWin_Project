@@ -17,7 +17,7 @@ class BlogsService {
       throw Exception("No internet connection. Please check your network.");
     }
     final response = await http.get(
-      Uri.parse("${baseUrl}blogs?perpage=10&page=$page"),
+      Uri.parse("${baseUrl}blogs?perpage=5&page=$page"),
       headers: {
         'Authorization': 'Bearer $token',
         "Content-Type": "application/json"

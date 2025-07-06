@@ -13,8 +13,13 @@ class MyCouponsViewCubit extends Cubit<MyCouponsViewState> {
     try {
       if (!isClosed) emit(MyCouponsViewLoading());
       final myCoupons = await MyCouponsService().fetchmyCoupons();
+      if (myCoupons.isEmpty) {
+        if (!isClosed) emit(NoCouponsFound());
+        return;
+      }
       if (!isClosed) emit(MyCouponsViewLoaded(myCoupons));
     } catch (e) {
+      print(e);
       ScreenDialogs.showFailureDialog(context, "$e", 'Ok', () {});
       if (!isClosed) emit(MyCouponsViewError(e.toString()));
     }

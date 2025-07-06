@@ -29,3 +29,5 @@ class HistoryViewError extends HistoryViewState {
   @override
   List<Object> get props => [message];
 }
+
+class HistoryViewEmpty extends HistoryViewState {}

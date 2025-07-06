@@ -29,8 +29,10 @@ class HistoryService {
       return transactions
           .map((json) => TransactionModel.fromJson(json))
           .toList();
+    } else if (response.statusCode == 404) {
+      return [];
     } else {
-      throw Exception("Failed to fetch Blogs");
+      throw Exception("Failed to fetch transactions");
     }
   }
 }

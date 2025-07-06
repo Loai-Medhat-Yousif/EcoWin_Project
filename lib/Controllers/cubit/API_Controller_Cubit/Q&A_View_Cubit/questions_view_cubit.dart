@@ -14,6 +14,10 @@ class FQAViewCubit extends Cubit<FAQViewState> {
     try {
       final List<QuestionAndAnswerModel> questions =
           await QuestionAndAnswerService().fetchQuestions(page = 1);
+      if (questions.length < 5) {
+        if (!isClosed) emit(FAQViewLoaded(questions, false));
+        return;
+      }
       if (!isClosed) emit(FAQViewLoaded(questions, true));
       print(questions);
     } catch (e) {

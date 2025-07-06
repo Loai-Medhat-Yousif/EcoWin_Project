@@ -12,6 +12,10 @@ class BlogsViewCubit extends Cubit<BlogsViewState> {
   Future<void> fetchBlogs() async {
     try {
       final List<BlogsModel> blogs = await BlogsService().fetchBlogs(page);
+      if (blogs.length < 5) {
+        if (!isClosed) emit(BlogsViewLoaded(blogs, false));
+        return;
+      }
       if (!isClosed) emit(BlogsViewLoaded(blogs, true));
     } catch (e) {
       if (!isClosed) emit(BlogsViewError("There was an Error Getting blogs."));

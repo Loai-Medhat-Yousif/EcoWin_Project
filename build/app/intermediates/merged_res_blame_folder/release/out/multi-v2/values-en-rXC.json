@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ecowin.app-mergeReleaseResources-39:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.ecowin.app-mergeReleaseResources-50:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Loai Medhat\\.gradle\\caches\\transforms-3\\284028a17b3c4602dfe2b64a1546fb3a\\transformed\\preference-1.2.1\\res\\values-en-rXC\\values-en-rXC.xml",

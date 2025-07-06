@@ -1,7 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Models/Profile%20Models/leaderboard_data_model.dart';
 import 'package:ecowin/Models/Profile%20Models/profile_data_model.dart';
 import 'package:ecowin/Views/About_Us_Views/about_us_view.dart';
+import 'package:ecowin/Views/Ai_Scanner_Views/ai_scanner_view.dart';
 import 'package:ecowin/Views/Charity_Views/charity_view.dart';
 import 'package:ecowin/Views/Green_Guide_Views/green_guide_view.dart';
 import 'package:flutter/material.dart';
@@ -41,9 +43,17 @@ class SliderItems extends StatelessWidget {
                 top: 10,
                 bottom: 10,
               ),
-              leading: CircleAvatar(
-                radius: 30.r,
-                backgroundImage: NetworkImage(profile.image),
+              leading: ClipOval(
+                child: CachedNetworkImage(
+                  imageUrl: profile.image,
+                  width: 50.w,
+                  height: 50.h,
+                  fit: BoxFit.cover,
+                  placeholder: (context, url) => const Center(
+                    child: CircularProgressIndicator(color: Colors.white),
+                  ),
+                  errorWidget: (context, url, error) => const Icon(Icons.error),
+                ),
               )),
           ListTile(
             contentPadding: REdgeInsets.only(left: 15, top: 10, bottom: 10),
@@ -88,7 +98,15 @@ class SliderItems extends StatelessWidget {
                 );
               }),
           GeneralListtile(
-              listtitle: "AI Assistant", icon: Icons.camera, tap: () {}),
+              listtitle: "AI Assistant",
+              icon: Icons.camera,
+              tap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const ScannerView(),
+                  ),
+                );
+              }),
           GeneralListtile(
               listtitle: "Charity",
               icon: Icons.handshake_outlined,

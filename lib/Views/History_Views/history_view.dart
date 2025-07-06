@@ -90,7 +90,8 @@ class _HistoryViewState extends State<HistoryView> {
                     if (state is HistoryViewLoading) {
                       return Expanded(
                         child: const Center(
-                          child: CircularProgressIndicator(color: AppColors.mainColor),
+                          child: CircularProgressIndicator(
+                              color: AppColors.mainColor),
                         ),
                       );
                     } else if (state is HistoryViewLoaded) {
@@ -105,6 +106,15 @@ class _HistoryViewState extends State<HistoryView> {
                       );
                     } else if (state is HistoryViewError) {
                       return Center(child: Text(state.message));
+                    } else if (state is HistoryViewEmpty) {
+                      return Expanded(
+                          child: Center(
+                              child: Text("No Transactions Found",
+                                  style: TextStyle(
+                                      color: AppColors.mainColor,
+                                      fontSize: 20.sp,
+                                      fontWeight: FontWeight.bold,
+                                      fontFamily: "AirbnbCereal_W_Md"))));
                     }
                     return const SizedBox();
                   },

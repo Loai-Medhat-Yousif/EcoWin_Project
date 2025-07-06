@@ -41,6 +41,19 @@ class MyCouponsView extends StatelessWidget {
                         )),
                       );
                     }
+                    if (state is NoCouponsFound) {
+                      return Expanded(
+                        child: Center(
+                          child: Text(
+                            "No Coupons Found",
+                            style: TextStyle(
+                                color: AppColors.mainColor,
+                                fontSize: 20.sp,
+                                fontFamily: "AirbnbCereal_W_Md"),
+                          ),
+                        ),
+                      );
+                    }
                     if (state is MyCouponsViewError) {
                       return Center(
                         child: GestureDetector(

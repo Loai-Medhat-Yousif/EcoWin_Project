@@ -48,7 +48,7 @@ class OrderItem {
   factory OrderItem.fromJson(Map<String, dynamic> json) {
     return OrderItem(
       quantity: json['quantity'],
-      totalPrice: json['total_price'],
+      totalPrice: json['total_price'].toString(),
       product: Product.fromJson(json['product']),
     );
   }
@@ -68,7 +68,7 @@ class Product {
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
       nameEn: json['name_en'],
-      price: json['price'],
+      price: json['price'].toString(),
       image: json['image'],
     );
   }

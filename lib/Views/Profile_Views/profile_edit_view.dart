@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecowin/Controllers/cubit/API_Controller_Cubit/Profile_Data_Cubit/profile_data_cubit.dart';
 import 'package:ecowin/Core/Constants/general_button.dart';
 import 'package:ecowin/Core/Constants/general_textfield.dart';
@@ -93,9 +94,19 @@ class ProfileEditView extends StatelessWidget {
                           ),
                           0.02.sh.verticalSpace,
                           Center(
-                            child: CircleAvatar(
-                              radius: 60.r,
-                              backgroundImage: NetworkImage(profile.image),
+                            child: ClipOval(
+                              child: CachedNetworkImage(
+                                imageUrl: profile.image,
+                                height: 100.h,
+                                width: 100.w,
+                                fit: BoxFit.cover,
+                                placeholder: (context, url) => const Center(
+                                  child: CircularProgressIndicator(
+                                      color: AppColors.mainColor),
+                                ),
+                                errorWidget: (context, url, error) =>
+                                    const Icon(Icons.error),
+                              ),
                             ),
                           ),
                           0.01.sh.verticalSpace,
